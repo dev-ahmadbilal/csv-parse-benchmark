@@ -1,0 +1,21 @@
+{
+  "name": "csv-parse-benchmark",
+  "version": "1.0.0",
+  "description": "This project compares top npm packages for csv parsing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Ahmad Bilal",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/parse": "^5.0.0",
+    "benchmark": "^2.1.4",
+    "csv-parse": "^5.5.6",
+    "csv-parser": "^3.0.0",
+    "fast-csv": "^5.0.1",
+    "papaparse": "^5.4.1"
+  }
+}
